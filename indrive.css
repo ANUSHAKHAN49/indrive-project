@@ -1,0 +1,913 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.root{
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+    background: no-repeat;
+    background-size: cover;
+    background-image:url(istockphoto-1470035625-612x612.jpg);
+        
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    border-radius: 5px 10px 5px 10px;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+.right{
+    display: flex;    
+}
+.indrive{
+    font-weight: bold;
+}
+
+.logo-text{
+    width: 120px;
+    height: 70px;
+    color: #ffff;
+    padding-left:0px;
+    padding-top: 2vh;
+    margin-left: 0%;
+    margin-right: 0px;
+    font-size: large;
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 400;
+    padding-left: 4%;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vh;
+    
+}
+.language{
+    background-color: rgb(50,57,66);
+    border-radius: 20px;
+    border: none;
+    color: #ffff;
+    width: 100px;
+    margin: 5px;
+    font-size: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.login{
+    background-color: rgb(50,57,66);
+    border-radius: 20px;
+    border: none;
+    color:#ffff;
+    width: 100px;
+    margin: 5px;
+    font-size: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.main-contnet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    font-family: "Noto Sans",sans-serif;
+    font-size: larger;
+    padding-top:40px ;
+    margin-top: 50px;
+
+}
+.heading{
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: "Noto Sans",sans-serif;
+    color: white;
+    padding-top: 70px;
+    
+}
+.colored{
+    color: #a7e92f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 85px;
+    font-family: "Noto Sans",sans-serif;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.para{
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+}
+.card{
+     background-color: #ffff;
+     border-radius: 20px;
+     width: 1300px;
+     height: 150px;
+     padding:10px;
+     margin: 30px;
+     margin-top: 100px;
+
+}
+.card-body{
+    width: 50px;
+}
+.from{
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color:#f5f5f6;
+    height: 50px;
+    padding-left: 7px;
+    margin: 7px;   
+}
+.from:hover{
+    background-color:#bdbdd4;
+}
+.to{
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f6;
+    height: 50px;
+    margin: 7px;
+    padding-left: 7px;
+}
+.to:hover{
+    background-color:#bdbdd4;
+}
+.date{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color:#f5f5f6;
+    padding-left: 7px;
+    margin: 5px;
+}
+.date:hover{
+    background-color:#bdbdd4;
+}
+.passanger{
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f6;
+    padding-left: 7px;
+    height: 50px;
+    margin: 5px;
+}
+.passanger:hover{
+    background-color:#c2c2e4;
+}
+.fare{
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f6;
+    height: 50px;
+    padding-left: 7px;
+    margin: 10px;
+}
+.fare:hover{
+    background-color:#bdbdd4;
+}
+.private{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #ffff;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 40px;
+}
+.pri-ico{
+    padding-left: 7px;
+}
+.abc{
+    display: flex;
+    flex-direction: row;
+}
+.share{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #f5f5f6;
+    color:black;
+    font-size: large;
+}
+.button{
+    height: 50px;
+    width: 170px;
+    font-size: large;
+    background-color: #a7e92f;
+    border: none;
+    outline: none;
+    border-radius: 10px;    
+}
+.button:hover{
+    background-color: #8eca1e;
+}
+.secondpage{
+    
+    background-size: cover;
+    background: no-repeat;
+    background-position: center;
+    height: 430vh;
+    width: 100%;
+    background-color:#f5f5f6;
+}
+.secondheading{
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 250;
+    padding-top: 110px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: #323942;
+}
+.divs{
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    background-color: #ffff;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    padding-left: 40px;
+    margin: 20px;
+    font-family:"Noto Sans",sans-serif;
+    color: #323942; 
+}
+.price-para{
+    margin-top: 5%;
+}
+.thumbup{
+   height: 60px;
+   width: 60px;
+   border-radius: 50px;
+   background-color: white;
+  outline-style: inset;
+  outline-width: 2px;
+   outline-color:#a7e92f;
+   padding-left: 4px;
+   padding-top: 20px;
+   padding-right: 4px;
+   padding-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 12%;
+   margin-bottom: 5%;
+  
+}
+.best{
+    background-color: #ffff;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    padding-left: 40px;
+    margin: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #323942;   
+}
+.best-para{
+    margin-top: 5%;
+}
+.identity{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: white;
+   outline-style: inset;
+   outline-width: 2px;
+    outline-color:#a7e92f;
+    padding-left: 4px;
+    padding-top: 20px;
+    padding-right: 4px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.door-to-door{
+    background-color: #ffff;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    padding-left: 40px;
+    margin: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #323942; 
+}
+.door-para{
+    margin-top: 5%;
+}
+.group-people{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: white;
+   outline-style: inset;
+   outline-width: 2px;
+    outline-color:#a7e92f;
+    padding-left: 4px;
+    padding-top: 20px;
+    padding-right: 4px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.safety{
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 550;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size:65px;
+    color: #323942;
+}
+.car-pic{
+    padding-top: 5%;
+    height: 500px;
+    width: 800px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
+.safety-tools{
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans",sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    color: #323942;
+    margin-top: 7%;
+    margin-right: 6%;
+    margin-left: 4%;
+    width: 900px;
+   
+}
+.rating{
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+.mandatory{
+    padding-bottom: 25px;
+}
+.safety-btn{
+    padding-bottom: 25px;
+}
+.sha{
+    padding-top: 6px;
+}
+.hsa{
+    padding-top: 6px;
+}
+.ash{
+    padding-top: 6px;
+}
+.work{
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size:30px;
+    color: #323942;
+}
+span.circle{
+    margin: 20px;
+    background-color:#f5f5f6;
+    outline-style: inset;
+    outline-color: #323942;
+    outline-width: 2px;
+    border-radius: 2%;
+    -moz-border-radius:10%;
+    -webkit-border-radius:50%;
+    display: inline-block;
+    font-family: "Noto Sans",sans-serif;
+    color:  #323942;
+    font-weight:bold;
+    width: 30px;
+    line-height:30px ;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+.points{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 400px;
+    font-family: "Noto Sans",sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 1px;
+}
+.accept-para{
+    padding-top: 1px;
+    padding-bottom: 10px;
+   
+}
+.wait-para{
+    margin-bottom: 10px;
+    }
+    .fill{
+        margin-top: 5px;
+        margin-bottom: 0%;
+    }
+.main-box{
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 70px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.download{
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: #323942;
+}
+.download-para{
+    font-family: "Noto Sans",sans-serif;
+    font-size: 19px;
+    color: #323942;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.download-btn{
+    background-color: #a7e92f;
+    border: none;
+    outline: none;
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 40px;
+    padding-right: 5px;
+}
+.download-btn:hover{
+    background-color: #8eca1e;
+}
+.Qrcode{
+    height: 350px;
+    width: 400px;
+    background-color: #ffff;
+    color: #323942;
+    border-radius: 60px;
+    margin-left: 70px;
+}
+.img-code{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 90px;
+    margin-left: 5px;
+    padding-top: 30px;
+    height: 235px;
+    width: 300px;
+}
+.scan{
+     margin-left: 50px;
+     margin-top: 40px;
+     margin-right: 20px;
+     font-size: 18px;
+     font-family:"Noto Sans",sans-serif ;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+}
+.intercity-routes{
+    height: 200px;
+    width: 500px;
+}
+.India{
+    font-family:"Noto Sans",sans-serif;
+    font-weight: 200;
+    height: 250px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #323942;
+    background-color: white;
+    margin-top: 170px;
+    width: 1300px;
+    margin-left: 30px;
+}
+.routes{
+    font-size:18px;
+    padding-top: 10px;
+    width: 250px;
+    padding-bottom: 5px;
+}
+.totalroutes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   
+}
+.divideroutes{
+  margin-right: 200px; 
+}
+footer{
+    background-color: #1c2024;
+    margin-top: 130px;
+    height: 350px;
+    border-radius: 48px 48px 0 0;
+   padding: 0%;
+}
+.footer-logo{
+    margin-left: 40px;
+    padding-top: 45px;
+    height: fit-content;
+}
+.download-apps{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icon{
+    padding-left: 7px;
+}
+.support{
+    font-size: 19px;
+    color: #ffff;
+    margin-top: 22px;
+    font-family: "Noto Sans",sans-serif;  
+    width: fit-content; 
+}
+.footer-para{
+    color: #848e9c;
+    margin-top: 20px;
+    font-family: "Noto Sans",sans-serif;
+    font-size: 15px;
+}
+.last-footer{
+  padding-left: 0%;
+ margin-right: 00px; 
+}
+.font{
+    height: 200px;
+    width: 250px;
+    margin-right: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 40px;
+    color: #a7e92f;
+   
+}
+.total-footer{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (min-width:300px)and (max-width:600px){
+    *{
+      overflow-x: hidden;
+      overflow-y: scroll;  
+    }
+   .heading{
+    font-size: 20px;
+    margin-top: 1px;
+   }
+   .colored{
+    font-size: 20px;
+    padding-left: 2px;
+   }
+   .para{
+    font-size: 10px;
+    margin: 7px;
+   }
+   .card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+   margin-top: 0%;
+   }
+   .car-pic{
+    width:250px;
+    height: 250px;
+   }
+   .root{
+    overflow-y: scroll;
+    overflow-x: hidden;
+   }
+   .abc{
+    display: flex;
+    flex-direction: column;
+   }
+   .divs{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+   }
+   .secondpage{
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }
+   .text{
+    display: flex;
+    flex-direction: column;
+   }
+   .form{
+    display: flex;
+    flex-direction: column;
+   }
+   .app{
+    display: flex;
+    flex-direction: column;
+   }
+   .download-btn{
+    margin-bottom: 20px;
+    margin-left: 40px;
+   }
+   .Qrcode{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0%;
+   }
+   .img-code{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+   }
+   .share{
+    width: 150px;
+   }
+   
+   .India{
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+   }
+  .last-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .total-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer{
+    height: 500px;
+    width: fit-content;
+  }
+  .footer-logo{
+    width: 140px;
+  }
+  .footer-icon{
+    width:50px;
+  } 
+}
+@media only screen and (min-width:601px)and (max-width:900px) {
+    *{
+        overflow-x: hidden;    
+    }
+    .card{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 40px;
+        
+    }
+    .colored{
+        font-size: 40px;
+    }
+    .para{
+        margin: 20px;
+    }
+    .Qrcode{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .img-code{
+        height: 170px;
+        width: 280px;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    .download-para{
+        padding-right: 5px;
+    }
+    .India{
+        width: fit-content;
+        height: fit-conten;
+        display: flex;
+        flex-direction: column;
+    }
+    .divideroutes{
+        display: flex;
+        flex-direction: column;
+    } 
+    .offer-card{
+       width: 700px;
+       height: 200px;
+    }  
+    .driver-card{
+        height: fit-content;
+        width: 700px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-box{
+        margin-top: 100px;
+    }
+    .body{
+        overflow-y: hidden;
+        width: 400px;
+        height: fit-content;
+    }
+}
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    background-image: url(./images/WhatsApp\ Image\ 2024-08-06\ at\ 00.13.12.jpeg);
+    background-size:800px 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 50%;
+}
+
+.offer-card {
+    height: 120px;
+    width: 700px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.driver-card{
+    display: flex;
+    flex-direction: column;
+}
+.driver-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+    margin-bottom:20px ;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rating-driver{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-info {
+    font-size: 14px;
+    color: black;
+}
+
+.ride-info {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.date-driver {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: px;
+    padding-top: 11px;
+}
+
+.ride-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 70px;
+    gap: 10px;
+
+}
+
+.decline {
+    background-color: #e0e0e0;
+    color: black; 
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+}
+
+.accept {
+    background-color: #a7e925;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+}
+
